@@ -7,7 +7,6 @@ import numpy as np
 from pinecone import Pinecone, ServerlessSpec, QueryRequest, UpsertRequest
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-# Set the OpenAI API key securely
 openai_api_key=" " #set your open api key please
 # Initialize Pinecone
 pc = Pinecone(api_key=pinecone_api_key)
